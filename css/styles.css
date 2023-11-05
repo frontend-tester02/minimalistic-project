@@ -540,6 +540,58 @@ select:-webkit-autofill:focus {
 }
 
 
+/* PROJECT-DETAILS */
+
+.project-details__section:not(:last-child) {
+  margin-bottom: 40px;
+
+}
+
+.project-details__heading {
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-size: 32px;
+  font-family: var(--accent-font-family);
+  line-height: 42px;
+  font-weight: 400;
+  letter-spacing: -0.286px;
+}
+
+.project-details__heading--static-previews {
+  margin-bottom: 40px;
+}
+
+.project-details__text {
+  margin:0;
+
+}
+
+.project-details__text:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+/* STATIC-PREVIEWS */
+.static-previews {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
+.static-previews__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.static-previews__picture {
+  display: block;
+}
+
+.static-previews__img {
+  display: block;
+  width: 100%;
+}
+
+
 
 
 /* SITE-FOOTER */
