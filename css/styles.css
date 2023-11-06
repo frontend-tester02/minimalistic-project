@@ -799,8 +799,24 @@ select:-webkit-autofill:focus {
   color: #fff;
 }
 
+.socials__link:hover {
+  color: var(--green);
+}
+
+.socials__link:hover:active {
+  opacity: 0.6;
+}
+
 .socials--dark .socials__link {
   color: var(--gray-dark-blue);
+}
+
+.socials--dark .socials__link:hover {
+  color: var(--green);
+}
+
+.socials--dark .socials__link:active {
+  opacity: 0.6;
 }
 
 .socials__icon {
