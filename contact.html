@@ -19,9 +19,9 @@
       <!-- SITENAV -->
       <nav class="site-header__sitenav sitenav sitenav--site-header">
         <ul class="sitenav__list">
-          <li class="sitenav__item sitenav__item--active"><a href="index.html" class="sitenav__link">Home</a></li>
+          <li class="sitenav__item"><a href="index.html" class="sitenav__link">Home</a></li>
           <li class="sitenav__item"><a href="portfolio.html" class="sitenav__link">Portfolio</a></li>
-          <li class="sitenav__item"><a href="contact.html" class="sitenav__link">Contact me</a></li>
+          <li class="sitenav__item sitenav__item--active"><a href="contact.html" class="sitenav__link">Contact me</a></li>
         </ul>
       </nav>
 
@@ -75,11 +75,12 @@
             <div class="form__group">
               <label for="email-input" class="form__label">Email Address</label>
               <input type="email" class="form__field" name="email" id="email-input" placeholder="email@example.com" required>
+              <div class="form__error-message">Please enter valid email</div>
             </div>
 
             <div class="form__group">
               <label for="email-input" class="form__label">Message</label>
-              <textarea class="form__field form__field-textarea" name="Message" id="message-field" placeholder="How can I help?" required></textarea>
+              <textarea class="form__field form__field-textarea" name="message" id="message-field" placeholder="How can I help?" required></textarea>
             </div>
 
             <div class="from__group">
