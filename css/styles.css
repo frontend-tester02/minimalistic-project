@@ -702,6 +702,10 @@ select:-webkit-autofill:focus {
   color: #fff;
 }
 
+.socials--dark .socials__link {
+  color: var(--gray-dark-blue);
+}
+
 .socials__icon {
   display: block;
 }
