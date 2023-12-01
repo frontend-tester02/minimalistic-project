@@ -685,7 +685,7 @@ select:-webkit-autofill:focus {
 
 .two-column-section__content {
   display: grid;
-  gap: 24;
+  gap: 24px;
 }
 
 .two-column-section__text {
